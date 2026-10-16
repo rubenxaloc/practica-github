@@ -7,3 +7,7 @@ longitud = 2 * math.pi * radio
 
 print(f"El área del círculo es: {area:.2f}")
 print(f"La longitud del círculo es: {longitud:.2f}")
+
+#Redondear con los dos métodos
+#Qué dos metodos de redondeo utiliza la libreria math?
+#Escoger uno de los métodos de print
