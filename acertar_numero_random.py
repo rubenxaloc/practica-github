@@ -1,10 +1,10 @@
 import random
 random=random.randint(1,5)
-usuario = int(input("Introduce un número del 1 al 5: "))
-
-if random > 5:
-    print("Valor incorrecto")
-elif usuario != random:
-    print("fallaste")
+usuario = input("Introduce un número del 1 al 5: ")
+if usuario in "12345":
+    if int(usuario)==random:
+            print("acertaste")
+    else:
+        print("fallaste")
 else:
-    print("acertaste")
+    print("No has introducido el rango correcto")
