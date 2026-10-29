@@ -10,4 +10,4 @@ perimetro = base_mayor + base_menor + (2 * lado)
 area = ((base_mayor + base_menor) * altura) / 2
 
 print(f"El perímetro es: {perimetro}")
-print(f"El área es: {area}")
+print(f"El área es: {area
